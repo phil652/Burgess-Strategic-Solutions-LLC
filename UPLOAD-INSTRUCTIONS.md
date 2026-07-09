@@ -17,10 +17,11 @@ Important:
 - Do not upload this folder as a folder inside the repository. The files inside this folder need to be at the repository root.
 - In GitHub Pages settings, choose `Deploy from a branch`, branch `main`, folder `/root`.
 
-If the logo is missing on GitHub Pages, check that this file exists in the repository:
+Government contracting details included:
 
-`assets/bss-logo-header.png`
+- SDVOSB: Service-Disabled Veteran-Owned Small Business
+- UEI: `MA2CX5HGL7Z3`
+- CAGE Code: `21VY9`
+- NAICS Codes: `To be added`
 
-If the layout looks plain or different, check that this file exists in the repository:
-
-`assets/styles.css`
+Send the actual NAICS code numbers when ready and the `NAICS Codes` field can be updated across the site.

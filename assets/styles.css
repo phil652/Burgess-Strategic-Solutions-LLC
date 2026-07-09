@@ -348,6 +348,45 @@ p {
   font-size: 1.08rem;
 }
 
+.credential-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.credential-grid div {
+  min-height: 118px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 8px 25px rgba(20, 33, 61, .05);
+}
+
+.credential-grid span,
+.credential-grid strong {
+  display: block;
+}
+
+.credential-grid span {
+  color: var(--muted);
+  font-size: .78rem;
+  font-weight: 850;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.credential-grid strong {
+  margin-top: 10px;
+  color: var(--navy);
+  font-size: 1.06rem;
+  line-height: 1.25;
+}
+
+.contracting-note {
+  margin-top: 18px;
+}
+
 .profile {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -458,6 +497,12 @@ textarea {
   color: #adc2d1;
 }
 
+.footer .footer-credentials {
+  color: #fff;
+  font-size: .9rem;
+  font-weight: 750;
+}
+
 .footer-links {
   display: flex;
   flex-wrap: wrap;
@@ -553,6 +598,7 @@ textarea {
   }
 
   .profile,
+  .credential-grid,
   .grid.two,
   .contact-form,
   .footer {
